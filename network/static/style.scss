@@ -1,0 +1,513 @@
+$black:#282828;
+$darkgray:#54565b;
+$lightgray:#919396;
+$lightergray:#bcc7cb;
+$lighterrrrrgray:#f4f5f1;
+$lightColor:#e6eaec;
+$lightblue:#c0d3df;
+$darkblue:#667d85;
+$red:#7e102f;
+
+i{
+    margin-right: 2px;
+}
+body{
+    background-color: $lighterrrrrgray;
+}
+
+
+@media only screen and (max-width: 1025px){
+
+    .card{
+        width:auto; 
+        margin:6px;
+    }
+
+    .likebutton ,.edit, .delete{
+        font-size: 32px;
+        color:$lightgray;
+    }
+
+    .delete{
+        margin-left: 20px;
+        background-color: transparent;
+        border: none;
+    }
+
+    .edit{
+        background-color: transparent;
+        border: none;
+    }
+
+    .edit:hover, .delete:hover{
+        color: $darkblue;
+        border: none;
+    }
+    
+    .toggleheader{
+        font-size:46px;
+        font-family:  monospace;
+    }
+    
+    .card-subtitle{
+        font-size:28px;
+    }
+    .card-header{
+        background-color: $lightblue !important;
+    }
+    .card-body{
+        background-color: $lightColor !important;
+    }
+
+    
+    .card-text{
+        font-size:34px;
+        color:$black;
+    }
+    .page-link:active,
+    .page-item,
+    .page-link{
+        font-size: 36px;
+        position: relative;
+        display: block;
+        padding: 1px;
+        margin-left: -1px;
+        line-height: 1.25;
+        color: $darkblue !important;
+        background-color: $lightColor !important;
+        border: 1px solid $lightergray !important;
+    }
+    
+    .network{
+        display: none;
+    }
+    
+    .details-follow{
+        font-size: 40px;
+        margin:10px;
+        color: $lightgray;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .details-name{
+        font-size: 54px;
+        margin:10px;
+        color: $black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .btn-follow{
+        font-size: 56px;
+    }
+
+    .btn-config{
+        font-size: 56px;
+    }
+
+    .btn-total-follow{
+        font-size: 38px;
+        background-color: transparent;
+        border: none;
+    }
+
+    
+    a{
+        color: $black;
+    }
+
+    a:hover{
+        color: $darkblue;
+        text-decoration: none;
+    }
+
+    .class-post{
+        padding: 10px; 
+        background-color: $lightColor; 
+        margin: 10px; 
+        margin-top: 40px;
+        border: 1px solid $darkblue;
+    }
+
+
+    .save{
+        font-size: 36px;
+        background-color:$lightergray;
+        border: none;
+        color: $black;
+    }
+
+    .save:hover{
+        background-color: $darkblue;
+        border: none;
+        color: $lightColor;
+    }
+
+    .profile{
+        border: 1px solid $darkblue; 
+        padding: 10px; 
+        background-color: $lighterrrrrgray; 
+        margin: 20px;
+        text-align: center;
+        -moz-transition: all 0.2s ease-in;
+        -o-transition: all 1s ease-in;
+        -webkit-transition: all 1s ease-in;
+        transition: all 1s ease-in;
+    }
+
+    .info-form{
+        margin-top: 10px;
+        font-size: 32px;
+    }
+
+    .total-likes{
+        font-size: 32px;
+    }
+
+    .label-config{
+        font-size: 36px;
+    }
+
+    .btn-modal-newpost{
+        background-color: $darkblue;
+        width: 100%;
+        border: 0.5px solid $black;
+        margin-top: 20px;
+        color: $lightColor;
+        margin-bottom: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 46px;
+        transition: background-color 1s ease-out 100ms;
+        transition: color 0.5s ease-out 100ms;
+    }
+    .btn-modal-newpost:hover{
+        background-color: $lightblue;
+        color: $black;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    }
+
+    .new-post-content{
+        background-color: $lightColor;
+    }
+
+
+    .message{
+        font-size: 60px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        color: $lightergray;
+    }
+
+    .data-info{
+        font-size: 36px;
+        color: $red;
+    }
+    .follows{
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 1025px){
+
+    .card{
+        width:auto; 
+        margin:6px;
+    }
+
+
+    .mr-auto{
+        margin-left: 20%;
+    }
+    .ml-auto{
+        margin-right: 20%;
+    }
+
+
+    
+    .likebutton ,.edit, .delete{
+        font-size: 16px;
+        color:$lightgray;
+    }
+
+    .delete, .edit{
+        margin-left: 20px;
+        background-color: transparent;
+        border: none;
+    }
+
+    .edit:hover,.delete:hover{
+        color: $darkblue;
+    }
+    
+    .toggleheader{
+        font-size:20px;
+        font-family:  monospace;
+    }
+    
+    .card-subtitle{
+        font-size:14px;
+    }
+    
+    .card-text{
+        font-size:24px;
+        color:$black;
+    }
+    .card-header{
+        background-color: $lightblue !important;
+    }
+    .card-body{
+        background-color: $lightColor !important;
+    }
+
+    .page-item,
+    .page-link:active,
+    .page-link{
+        font-size: 16px;
+        position: relative;
+        display: block;
+        margin-left: -1px;
+        line-height: 1.25;
+        color:$darkblue !important;
+        background-color: $lightColor !important;
+        border: 1px solid $lightergray !important;
+    }
+
+    .btn-follow{
+        font-size: 30px;
+    }
+
+    
+    .btn-total-follow{
+        font-size: 16px;
+        background-color: transparent;
+        border: none;
+    }
+
+
+    a{
+        color: $black;
+    }
+
+    a:hover{
+        color: $darkblue;
+        text-decoration: none;
+    }
+    
+    .details-follow{
+        font-size: 24px;
+        margin:10px;
+        color: $lightgray;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .details-name{
+        font-size: 34px;
+        margin:10px;
+        color: $black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .class-post{
+        padding: 10px; 
+        background-color: $lightColor; 
+        margin: 10px; 
+        border: 1px solid $darkblue;
+    }
+
+
+
+    .profile{
+        border: 1px solid $darkblue; 
+        padding: 10px; 
+        background-color: $lighterrrrrgray; 
+        margin: 20px;
+        text-align: center;
+    }   
+
+    .save{
+        font-size: 16px;
+        background-color:$lightergray;
+        border: none;
+        color: $black;
+    }
+    .save:hover{
+        background-color: $darkblue;
+        border: none;
+        color: $lightColor;
+    }
+
+    .info-form{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .total-likes{
+        font-size: 16px;
+    }
+
+    .btn-config{
+        font-size: 30px;
+    }
+
+    .label-config{
+        font-size: 16px;
+    }
+
+    .btn-modal-newpost{
+        background-color: $darkblue;
+        width: 100%;
+        border: 0.5px solid $black;
+        margin-top: 20px;
+        color: $lightColor;
+        margin-bottom: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 26px;
+        transition: background-color 1s ease-out 100ms;
+        transition: color 0.5s ease-out 100ms;
+
+    }
+
+    .btn-modal-newpost:hover{
+        background-color: $lightblue;
+        color: $black;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    }
+
+    .new-post-content{
+        background-color: $lightColor;
+    }
+
+
+    .message{
+        font-size: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        color: $lightergray;
+    }
+
+    .data-info{
+        font-size: 16px;
+        color: $red;
+    }
+}
+.fa-cog{
+    color: $darkblue;
+}
+
+
+.togglecontainer {
+    width: 20%;
+    display: inline-flex;
+    // list-style: none;
+    justify-content: space-evenly;
+    transition: all 0.4s ease-in-out;
+    align-items: center;
+    position: relative;
+    
+}
+
+#toggle1 {
+    font-size: 100px;
+    z-index: 40000;
+    position: absolute;
+    top: -12px;
+    width: 100px;
+    transition: all 0.4s ease-in-out;
+    height: 43px;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+#toggle2 {
+    font-size: 100px;
+    z-index: 40000;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    top: -12px;
+    width: 100px;
+    height: 43px;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+.togglebutton {
+    transition: all 0.4s ease-in-out;
+    position: absolute;
+    z-index: 999;
+    width: 120px;
+    height: 45px;
+    background: $lightblue;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -12px;
+    
+
+    &:before {
+        position: absolute;
+        background: #fff;
+        transition: all 0.4s ease;
+        cursor: pointer;
+    }
+
+    &:after {
+        position: absolute;
+        background: #fff;
+        transition: all 0.4s ease;
+        cursor: pointer;
+    }
+}
+
+.togglenav {
+    display: none;
+    transition: all 0.4s ease-in-out;
+    background: #fff;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px 0 rgba(81, 81, 81, 0.1);
+    border: 1px solid #e4e4e4;
+    padding: 10px;
+    
+
+    .toggleul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .toggleheader {
+        transition: all 0.4s ease-in-out;
+        text-align: center;
+        margin: 20px 0;
+        color: $darkblue;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 14px;
+
+        &:hover {
+            color: $lightblue;
+        }
+    }
+}
+
+#toggle1:checked~.togglenav {
+    display: inline-block;
+    cursor: pointer;
+}
+#toggle2:checked~.togglenav {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.modal-title{
+    color: $darkblue !important;
+}

@@ -1,0 +1,421 @@
+i {
+  margin-right: 2px;
+}
+
+body {
+  background-color: #f4f5f1;
+}
+
+@media only screen and (max-width: 1025px) {
+  .card {
+    width: auto;
+    margin: 6px;
+  }
+  .likebutton, .edit, .delete {
+    font-size: 32px;
+    color: #919396;
+  }
+  .delete {
+    margin-left: 20px;
+    background-color: transparent;
+    border: none;
+  }
+  .edit {
+    background-color: transparent;
+    border: none;
+  }
+  .edit:hover, .delete:hover {
+    color: #667d85;
+    border: none;
+  }
+  .toggleheader {
+    font-size: 46px;
+    font-family: monospace;
+  }
+  .card-subtitle {
+    font-size: 28px;
+  }
+  .card-header {
+    background-color: #c0d3df !important;
+  }
+  .card-body {
+    background-color: #e6eaec !important;
+  }
+  .card-text {
+    font-size: 34px;
+    color: #282828;
+  }
+  .page-link:active,
+.page-item,
+.page-link {
+    font-size: 36px;
+    position: relative;
+    display: block;
+    padding: 1px;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #667d85 !important;
+    background-color: #e6eaec !important;
+    border: 1px solid #bcc7cb !important;
+  }
+  .network {
+    display: none;
+  }
+  .details-follow {
+    font-size: 40px;
+    margin: 10px;
+    color: #919396;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .details-name {
+    font-size: 54px;
+    margin: 10px;
+    color: #282828;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .btn-follow {
+    font-size: 56px;
+  }
+  .btn-config {
+    font-size: 56px;
+  }
+  .btn-total-follow {
+    font-size: 38px;
+    background-color: transparent;
+    border: none;
+  }
+  a {
+    color: #282828;
+  }
+  a:hover {
+    color: #667d85;
+    text-decoration: none;
+  }
+  .class-post {
+    padding: 10px;
+    background-color: #e6eaec;
+    margin: 10px;
+    margin-top: 40px;
+    border: 1px solid #667d85;
+  }
+  .save {
+    font-size: 36px;
+    background-color: #bcc7cb;
+    border: none;
+    color: #282828;
+  }
+  .save:hover {
+    background-color: #667d85;
+    border: none;
+    color: #e6eaec;
+  }
+  .profile {
+    border: 1px solid #667d85;
+    padding: 10px;
+    background-color: #f4f5f1;
+    margin: 20px;
+    text-align: center;
+    transition: all 1s ease-in;
+  }
+  .info-form {
+    margin-top: 10px;
+    font-size: 32px;
+  }
+  .total-likes {
+    font-size: 32px;
+  }
+  .label-config {
+    font-size: 36px;
+  }
+  .btn-modal-newpost {
+    background-color: #667d85;
+    width: 100%;
+    border: 0.5px solid #282828;
+    margin-top: 20px;
+    color: #e6eaec;
+    margin-bottom: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 46px;
+    transition: background-color 1s ease-out 100ms;
+    transition: color 0.5s ease-out 100ms;
+  }
+  .btn-modal-newpost:hover {
+    background-color: #c0d3df;
+    color: #282828;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  }
+  .new-post-content {
+    background-color: #e6eaec;
+  }
+  .message {
+    font-size: 60px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: #bcc7cb;
+  }
+  .data-info {
+    font-size: 36px;
+    color: #7e102f;
+  }
+  .follows {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .card {
+    width: auto;
+    margin: 6px;
+  }
+  .mr-auto {
+    margin-left: 20%;
+  }
+  .ml-auto {
+    margin-right: 20%;
+  }
+  .likebutton, .edit, .delete {
+    font-size: 16px;
+    color: #919396;
+  }
+  .delete, .edit {
+    margin-left: 20px;
+    background-color: transparent;
+    border: none;
+  }
+  .edit:hover, .delete:hover {
+    color: #667d85;
+  }
+  .toggleheader {
+    font-size: 20px;
+    font-family: monospace;
+  }
+  .card-subtitle {
+    font-size: 14px;
+  }
+  .card-text {
+    font-size: 24px;
+    color: #282828;
+  }
+  .card-header {
+    background-color: #c0d3df !important;
+  }
+  .card-body {
+    background-color: #e6eaec !important;
+  }
+  .page-item,
+.page-link:active,
+.page-link {
+    font-size: 16px;
+    position: relative;
+    display: block;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #667d85 !important;
+    background-color: #e6eaec !important;
+    border: 1px solid #bcc7cb !important;
+  }
+  .btn-follow {
+    font-size: 30px;
+  }
+  .btn-total-follow {
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+  }
+  a {
+    color: #282828;
+  }
+  a:hover {
+    color: #667d85;
+    text-decoration: none;
+  }
+  .details-follow {
+    font-size: 24px;
+    margin: 10px;
+    color: #919396;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .details-name {
+    font-size: 34px;
+    margin: 10px;
+    color: #282828;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .class-post {
+    padding: 10px;
+    background-color: #e6eaec;
+    margin: 10px;
+    border: 1px solid #667d85;
+  }
+  .profile {
+    border: 1px solid #667d85;
+    padding: 10px;
+    background-color: #f4f5f1;
+    margin: 20px;
+    text-align: center;
+  }
+  .save {
+    font-size: 16px;
+    background-color: #bcc7cb;
+    border: none;
+    color: #282828;
+  }
+  .save:hover {
+    background-color: #667d85;
+    border: none;
+    color: #e6eaec;
+  }
+  .info-form {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .total-likes {
+    font-size: 16px;
+  }
+  .btn-config {
+    font-size: 30px;
+  }
+  .label-config {
+    font-size: 16px;
+  }
+  .btn-modal-newpost {
+    background-color: #667d85;
+    width: 100%;
+    border: 0.5px solid #282828;
+    margin-top: 20px;
+    color: #e6eaec;
+    margin-bottom: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 26px;
+    transition: background-color 1s ease-out 100ms;
+    transition: color 0.5s ease-out 100ms;
+  }
+  .btn-modal-newpost:hover {
+    background-color: #c0d3df;
+    color: #282828;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  }
+  .new-post-content {
+    background-color: #e6eaec;
+  }
+  .message {
+    font-size: 40px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: #bcc7cb;
+  }
+  .data-info {
+    font-size: 16px;
+    color: #7e102f;
+  }
+}
+.fa-cog {
+  color: #667d85;
+}
+
+.togglecontainer {
+  width: 20%;
+  display: inline-flex;
+  justify-content: space-evenly;
+  transition: all 0.4s ease-in-out;
+  align-items: center;
+  position: relative;
+}
+
+#toggle1 {
+  font-size: 100px;
+  z-index: 40000;
+  position: absolute;
+  top: -12px;
+  width: 100px;
+  transition: all 0.4s ease-in-out;
+  height: 43px;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+#toggle2 {
+  font-size: 100px;
+  z-index: 40000;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  top: -12px;
+  width: 100px;
+  height: 43px;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+.togglebutton {
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  z-index: 999;
+  width: 120px;
+  height: 45px;
+  background: #c0d3df;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -12px;
+}
+.togglebutton:before {
+  position: absolute;
+  background: #fff;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.togglebutton:after {
+  position: absolute;
+  background: #fff;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.togglenav {
+  display: none;
+  transition: all 0.4s ease-in-out;
+  background: #fff;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 10px 0 rgba(81, 81, 81, 0.1);
+  border: 1px solid #e4e4e4;
+  padding: 10px;
+}
+.togglenav .toggleul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.togglenav .toggleheader {
+  transition: all 0.4s ease-in-out;
+  text-align: center;
+  margin: 20px 0;
+  color: #667d85;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+.togglenav .toggleheader:hover {
+  color: #c0d3df;
+}
+
+#toggle1:checked ~ .togglenav {
+  display: inline-block;
+  cursor: pointer;
+}
+
+#toggle2:checked ~ .togglenav {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.modal-title {
+  color: #667d85 !important;
+}/*# sourceMappingURL=style.css.map */
